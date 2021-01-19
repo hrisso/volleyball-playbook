@@ -88,10 +88,6 @@ The Volleyball Playbook app is a library of volleball plays that allows a user t
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Setup React App | H | 2hrs| 0hrs | 0hrs |
@@ -112,7 +108,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ### Strengths:
 I have a clear understanding of CRUD and what I have to do for those requirements. 
 ### Weaknesses:
-I'm still not super clear on whether this design will look good. I might have to change strategies if I implement it and I'm not happy with the visual.
+I'm still not super clear on whether this design will look good. I might have to change strategies if I implement it and I'm not happy with the visual. I'm also concerned about my time estimates.
 ### Opportunities:
 I'm looking forward to creating a react app from scratch independently to solidy my understanding of the concepts from class.
 ### Threats:
