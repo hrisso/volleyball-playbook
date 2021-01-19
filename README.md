@@ -4,14 +4,17 @@
 
 ## Project Description
 
-The Volleyball Playbook app is a library of volleball plays and drills that allows a user to read and add to the library. 
+The Volleyball Playbook app is a library of volleball plays that allows a user to read and add to the library. 
 
 ## Wireframes
 
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611097333/Home%20Wireframe.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611097668/Plays%20Feed%20Wireframe.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611098227/Mobile%20Homepage%20Wireframe.png)
 
 ## Component Hierarchy
 
-![imageAlt] (https://res.cloudinary.com/doas1ztbf/image/upload/v1611096521/Component%20Hierarchy.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611096521/Component%20Hierarchy.png)
 
 ## API and Data Sample
 
@@ -67,6 +70,8 @@ The Volleyball Playbook app is a library of volleball plays and drills that allo
 - Add categorization for offense / defense
 - Allow user to delete plays
 - Allow user to update/edit plays
+- Search bar to search all plays
+- Add ratings to plays
 
 ## Project Schedule
 
@@ -89,16 +94,26 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Setup React App | H | 2hrs| 0hrs | 0hrs |
+| Display Airtable data on homepage | H | 3hrs| 0hrs | 0hrs |
+| Header Component | H | 1hr| 0hrs | 0hrs |
+| Footer Component | H | 1hr| 0hrs | 0hrs |
+| Feed Component | H | 3hrs| 0hrs | 0hrs |
+| Form Component | H | 3hrs| 0hrs | 0hrs |
+| App.js routes | H | 3hrs| 0hrs | 0hrs |
+| CSS styling homepage | H | 2hrs| 0hrs | 0hrs |
+| CSS styling feed | H | 3hrs| 0hrs | 0hrs |
+| CSS styling form| H | 3hrs| 0hrs | 0hrs |
+| CSS styling header/footer | H | 1hr| 0hrs | 0hrs |
+| Total | H | 25hrs| 0hrs | 0hrs |
 
 ## SWOT Analysis
 
 ### Strengths:
-
+I have a clear understanding of CRUD and what I have to do for those requirements. 
 ### Weaknesses:
-
+I'm still not super clear on whether this design will look good. I might have to change strategies if I implement it and I'm not happy with the visual.
 ### Opportunities:
-
+I'm looking forward to creating a react app from scratch independently to solidy my understanding of the concepts from class.
 ### Threats:
+I tend to spend a lot of time with CSS and styling to see what makes the app look good, but I need to focus on MVP and keep advanced styling for the end so I don't run out of time for MVP.
