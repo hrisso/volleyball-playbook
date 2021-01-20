@@ -4,17 +4,17 @@
 
 ## Project Description
 
-The Volleyball Playbook app is a library of volleball plays that allows a user to read and add to the library. 
+The Volleyball Playbook app is a library of volleball plays that allows a user to read and add to the library. The plays are organized by type and include title, description, image link, and author.
 
 ## Wireframes
 
 ![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611097333/Home%20Wireframe.png)
-![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611097668/Plays%20Feed%20Wireframe.png)
-![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611098227/Mobile%20Homepage%20Wireframe.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611160558/List%20Wireframe.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611160210/Mobile%20form%20wireframe.png)
 
 ## Component Hierarchy
 
-![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611096521/Component%20Hierarchy.png)
+![imageAlt](https://res.cloudinary.com/doas1ztbf/image/upload/v1611161104/Component%20Hierarchy.png)
 
 ## API and Data Sample
 
