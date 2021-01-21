@@ -15,7 +15,7 @@ function Details(props) {
 
   return (
     <div className="play">
-      <img src={play.fields.image} alt="play image"></img>
+      <img src={play.fields.image} alt="play"></img>
       <h2>{play.fields.name}</h2>
       <p>{play.fields.type}</p>
       <p>{play.fields.description}</p>

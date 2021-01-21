@@ -1,11 +1,13 @@
 import { baseURL, config } from './services';
 import { useEffect, useState } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
 import Nav from './components/Nav';
 import Form from './components/Form';
-import Details from './components/Details'
+import Details from './components/Details';
+import Home from './components/Home';
+import List from './components/List';
 
 function App() {
 
@@ -24,9 +26,12 @@ function App() {
     <div className="App">
       <Nav />
       <main>
-        {plays.map((play) => (
-          <Link key={play.id}to={`/play/${play.id}`}>{play.fields.name}</Link>
-        ))}
+        <Route exact path="/">
+          <Home />
+        </Route >
+        <Route path="/:type">
+          <List plays={plays}/>
+        </Route>
       </main>
       <Route path="/new">
         <Form setToggleFetch={setToggleFetch}/>
