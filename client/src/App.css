@@ -1,3 +1,83 @@
+/* CSS HEX
+--raisin-black: #171a21ff;
+--cadet: #617073ff;
+--shadow-blue: #7a93acff;
+--baby-blue-eyes: #92bceaff;
+--maximum-blue-purple: #afb3f7ff;
+ */
+
 .App {
   text-align: center;
+}
+
+nav {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: #92bceaff;
+}
+
+nav a, 
+main a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  color: #162521;
+}
+
+nav a:hover,
+main a:hover {
+  border-bottom: 1px solid #171a21ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label, form input, form select, form button {
+  margin: 5px 0;
+  font-family: "Montserrat";
+  width: 25%;
+  box-sizing: border-box;
+}
+
+form input:focus, 
+form button:focus {
+  outline: 1px solid #171a21ff;
+}
+
+form h4 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  color: #171a21ff;
+}
+
+form label {
+  color: #afb3f7ff;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #171a21ff;
+}
+
+form input,
+form select,
+form button {
+  font-weight: 600;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #617073ff;
+  color: white;
+}
+
+form button:hover {
+  color: #171a21ff;
+  background-color: white;
 }

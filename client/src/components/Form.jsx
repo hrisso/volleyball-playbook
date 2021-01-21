@@ -4,7 +4,7 @@ import { baseURL, config } from "../services";
 
 function Form(props) {
   const [name, setName] = useState("");
-  const [type, setType] = useState("");
+  const [type, setType] = useState("Offense");
   const [description, setDescription] = useState("");
   const [image, setImage] = useState("");
   const [author, setAuthor] = useState("");

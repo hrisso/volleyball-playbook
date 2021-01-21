@@ -4,10 +4,10 @@ function Home(props) {
   return (
     <div className="links">
       <div className="offense">
-        <Link to="/offense">Offense</Link>
+        <Link to="/Offense">Offense</Link>
       </div>
       <div className="defense">
-        <Link to="/defense">Defense</Link>
+        <Link to="/Defense">Defense</Link>
       </div>
     </div>
   )

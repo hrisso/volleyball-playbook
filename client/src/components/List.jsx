@@ -3,13 +3,12 @@ import { useParams } from 'react-router-dom';
 
 function List(props) {
   const params = useParams();
-  console.log(params.type)
 
   return (
     <section>
       <div className="list">
         {props.plays.filter(
-          (play) => play.fields.type === "Offense")
+          (play) => play.fields.type === params.type)
           .map((play) => (
           <div className="play list">
             <Link to={`/play/${play.id}`} key={play.id}>
