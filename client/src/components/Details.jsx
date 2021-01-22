@@ -19,7 +19,7 @@ function Details(props) {
       <h2>{play.fields.name}</h2>
       <p>{play.fields.type}</p>
       <p>{play.fields.description}</p>
-      <h5>{play.fields.author}</h5>
+      <h5>Author: {play.fields.author}</h5>
     </div>
   )
 }
