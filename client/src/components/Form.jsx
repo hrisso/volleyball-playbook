@@ -15,6 +15,11 @@ function Form(props) {
     await axios.post(baseURL, {fields: fields}, config)
     console.log("success!");
     props.setToggleFetch((prev) => !prev)
+    setName("");
+    setType("Offense");
+    setDescription("");
+    setImage("");
+    setAuthor("");
   };
 
   return (

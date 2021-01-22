@@ -107,6 +107,11 @@ form button:hover {
   border-radius: 5px;
 }
 
+.offense,
+.defense {
+  display: flex;
+}
+
 .play img {
   height: 100px;
   width: auto;
