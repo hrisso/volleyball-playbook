@@ -8,6 +8,7 @@ import Form from './components/Form';
 import Details from './components/Details';
 import Home from './components/Home';
 import List from './components/List';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         <Route path="/play/:id">
           <Details plays={plays}/>
       </Route>
+      <Footer />
     </div>
   );
 }

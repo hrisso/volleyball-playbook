@@ -1,22 +1,23 @@
 /* CSS HEX
---raisin-black: #171a21ff;
---cadet: #617073ff;
---shadow-blue: #7a93acff;
---baby-blue-eyes: #92bceaff;
---maximum-blue-purple: #afb3f7ff;
+--oxford-blue: #0b132bff;
+--space-cadet: #1c2541ff;
+--independence: #3a506bff;
+--maximum-blue-green: #5bc0beff;
+--white: #ffffffff;
  */
 
 .App {
   text-align: center;
+  background-color: #ffffff;
 }
 
 nav {
   display: flex;
-  padding: 15px;
+  padding: 20px;
   width: 100%;
   box-sizing: border-box;
   justify-content: space-between;
-  background-color: #92bceaff;
+  background-color: #5bc0beff;
 }
 
 nav a, 
@@ -24,44 +25,51 @@ main a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s;
-  font-family: "Playfair Display";
+  font-family: 'Rubik', sans-serif;
   font-weight: 900;
-  color: #162521;
+  color: #0b132bff;
 }
 
 nav a:hover,
 main a:hover {
-  border-bottom: 1px solid #171a21ff;
+  border-bottom: 1px solid #0b132bff;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: 0 10% 5% 10%;
+  padding: 2%;
 }
 
-form label, form input, form select, form button {
+form label, 
+form input, 
+form select, 
+form button {
   margin: 5px 0;
-  font-family: "Montserrat";
+  font-family: 'Rubik', sans-serif;
   width: 25%;
   box-sizing: border-box;
 }
 
 form input:focus, 
 form button:focus {
-  outline: 1px solid #171a21ff;
+  outline: 1px solid #0b132bff;
 }
 
 form h4 {
-  font-family: "Playfair Display";
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  color: #171a21ff;
+  color: #3a506bff;
+  text-shadow: 1px 1px 1px #0b132bff;
 }
 
 form label {
-  color: #afb3f7ff;
+  color: #3a506bff;
   font-weight: 600;
-  text-shadow: 1px 1px 1px #171a21ff;
+  text-shadow: 1px 1px 1px #0b132bff;
 }
 
 form input,
@@ -73,11 +81,52 @@ form button {
 }
 
 form button {
-  background-color: #617073ff;
-  color: white;
+  background-color: #3a506bff;
+  color: #ffffff;
+  padding: 3px;
 }
 
 form button:hover {
-  color: #171a21ff;
-  background-color: white;
+  color: #3a506bff;
+  background-color: #5bc0beff;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offense,
+.defense,
+.play-list {
+  border: 2px solid #1c2541ff;
+  padding: 50px 100px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.play img {
+  height: 100px;
+  width: auto;
+  margin: 20px;
+}
+
+.offense img,
+.defense img {
+  height: 20px;
+  padding: 0 30px;
+}
+
+.foot {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #5bc0beff;
+}
+
+.footer-img {
+  width: 50px;
+  height: auto;
 }
