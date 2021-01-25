@@ -13,14 +13,17 @@
 .App {
   text-align: center;
   background-color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 80px;
 }
 
 nav {
   display: flex;
-  padding: 30px;
-  width: 100vw;
+  padding: 35px;
+  width: 100%;
   box-sizing: border-box;
   justify-content: space-between;
+  align-content: center;
   background-color: #5bc0beff;
 }
 
@@ -29,13 +32,20 @@ main a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: all 0.2s;
-  font-family: 'Rubik', sans-serif;
   font-weight: 900;
   color: #0b132bff;
 }
 
 nav a:hover{
   border-bottom: 1px solid #0b132bff;
+}
+
+.right-nav a {
+  margin: 20px 10px;
+}
+
+nav h1 {
+  font-size: 30px;
 }
 
 form {
@@ -52,7 +62,6 @@ form input,
 form select, 
 form button {
   margin: 5px 0;
-  font-family: 'Rubik', sans-serif;
   width: 40%;
   box-sizing: border-box;
 }
@@ -64,7 +73,6 @@ form button:focus {
 }
 
 form h4 {
-  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   color: #3a506bff;
   text-shadow: 1px 1px 1px #0b132bff;
@@ -113,6 +121,8 @@ form button:hover {
   margin: 20px;
   border-radius: 5px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .offense:hover,
@@ -122,15 +132,9 @@ form button:hover {
   transition: all 0.2s;
 }
 
-.offense h3,
-.defense h3,
-.play-list h3 {
-  margin: 0;
-}
-
 .offense img,
 .defense img {
-  height: 20px;
+  height: 40px;
   padding: 0 30px;
 }
 
@@ -151,13 +155,12 @@ form button:hover {
   justify-self: center;
 }
 
-.play h2,
+.play h1,
 .play p,
 .play h5 {
   grid-column: 2 / 3;
   text-align: left;
   align-self: center;
-  margin: 0px;
 }
 
 .play-list {
@@ -175,6 +178,7 @@ form button:hover {
   position: absolute;
   left: 0;
   bottom: 0;
+  right: 0;
 }
 
 .footer-img {
@@ -183,6 +187,14 @@ form button:hover {
 }
 
 @media screen and (max-width: 500px) {
+  nav h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    padding: 30px 20px
+  }
+  
   .play {
     display: flex;
     flex-flow: column;
@@ -207,8 +219,8 @@ form button:hover {
 
   .offense,
   .defense {
-    padding: 50px;
-    margin: 20px;
+    padding: 30px;
+    margin: 15px;
   }
 
   .play-list {
