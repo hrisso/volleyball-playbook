@@ -49,13 +49,14 @@ form select,
 form button {
   margin: 5px 0;
   font-family: 'Rubik', sans-serif;
-  width: 30%;
+  width: 40%;
   box-sizing: border-box;
 }
 
 form input:focus, 
 form button:focus {
   outline: 1px solid #0b132bff;
+  transition: all 0.2s;
 }
 
 form h4 {
@@ -77,20 +78,20 @@ form button {
   font-weight: 600;
   transition: all 0.2s;
   box-sizing: border-box;
-  box-shadow: 5px 5px 8px #1c2541ff;
   padding: 5px;
 }
 
 form button {
   background-color: #3a506bff;
   color: #ffffff;
-  padding: 3px;
+  padding: 5px;
   margin: 20px 0 0 0;
 }
 
 form button:hover {
   color: #3a506bff;
   background-color: #5bc0beff;
+  transition: all 0.2s;
 }
 
 .links {
@@ -106,29 +107,20 @@ form button:hover {
   padding: 50px 100px;
   margin: 20px;
   border-radius: 5px;
+  display: flex;
 }
 
 .offense:hover,
 .defense:hover,
 .play-list:hover {
   box-shadow: 5px 5px 8px #1c2541ff;
+  transition: all 0.2s;
 }
 
 .offense h3,
 .defense h3,
 .play-list h3 {
   margin: 0;
-}
-
-.offense,
-.defense {
-  display: flex;
-}
-
-.play img {
-  height: 100px;
-  width: auto;
-  margin: 20px;
 }
 
 .offense img,
@@ -140,15 +132,17 @@ form button:hover {
 .play {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 50px);
+  grid-template-rows: repeat(4, 1fr);
   width: 80%;
   margin: 20px auto;
 }
 
 .play img {
+  height: 10em; 
+  width: auto;
+  margin: 20px;
   grid-column: 1 / 2;
-  grid-row: 1 / 4;
-  height: 10em;
+  grid-row: 1 / 5;
   justify-self: center;
 }
 
@@ -163,8 +157,8 @@ form button:hover {
 
 .play-list {
   border: 2px solid #1c2541ff;
-  padding: 50px;
-  margin: 20px 30%;
+  padding: 20px 50px;
+  margin: 20px 25%;
   border-radius: 5px;
 }
 
@@ -178,4 +172,40 @@ form button:hover {
 .footer-img {
   width: 50px;
   height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .play {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .play h2,
+  .play p,
+  .play h5 {
+    margin: 10px;
+  }
+
+  img {
+    max-height: 50%;
+  }
+
+  form label, 
+  form input, 
+  form select, 
+  form button {
+    width: 75%;
+  }
+
+  .offense,
+  .defense {
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .play-list {
+    padding: 20px 50px;
+    margin: 10px 10%;
+  }
+
 }

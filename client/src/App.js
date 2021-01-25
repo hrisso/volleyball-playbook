@@ -1,6 +1,6 @@
 import { baseURL, config } from './services';
 import { useEffect, useState } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, useHistory  } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
 import Nav from './components/Nav';
@@ -14,14 +14,16 @@ function App() {
 
   const [plays, setPlays] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
+  const history = useHistory();
 
   useEffect(() => {
     const getPlays = async () => {
       const resp = await axios.get(baseURL, config);
       setPlays(resp.data.records);
+      history.push('/')
     }
     getPlays();
-  }, [toggleFetch]);
+  }, [toggleFetch, history]);
 
   return (
     <div className="App">
