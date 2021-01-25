@@ -117,9 +117,8 @@ form button:hover {
 .offense,
 .defense {
   border: 2px solid #1c2541ff;
-  min-width: 80%;
-  max-width: 90%;
   padding: 50px;
+  min-width: 40vw;
   margin: 20px;
   border-radius: 5px;
   display: flex;
