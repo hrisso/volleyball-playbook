@@ -6,6 +6,10 @@
 --white: #ffffffff;
  */
 
+* {
+  margin: 0;
+}
+
 .App {
   text-align: center;
   background-color: #ffffff;
@@ -13,8 +17,8 @@
 
 nav {
   display: flex;
-  padding: 20px;
-  width: 100%;
+  padding: 30px;
+  width: 100vw;
   box-sizing: border-box;
   justify-content: space-between;
   background-color: #5bc0beff;
@@ -64,6 +68,7 @@ form h4 {
   font-weight: 700;
   color: #3a506bff;
   text-shadow: 1px 1px 1px #0b132bff;
+  margin: 20px;
 }
 
 form label {
@@ -167,6 +172,9 @@ form button:hover {
   width: 100%;
   box-sizing: border-box;
   background-color: #5bc0beff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .footer-img {
