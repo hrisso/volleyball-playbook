@@ -10,11 +10,11 @@ function List(props) {
         {props.plays.filter(
           (play) => play.fields.type === params.type)
           .map((play) => (
-          <div className="play-list">
             <Link to={`/play/${play.id}`} key={play.id}>
-              {play.fields.name}
+              <div className="play-list">
+              <h3>{play.fields.name}</h3>
+              </div>
             </Link>
-          </div>
         ))}
       </div>
     </section>

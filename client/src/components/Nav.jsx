@@ -4,7 +4,7 @@ function Nav(props) {
   return (
     <nav>
       <Link to="/">Volleyball Playbook</Link>
-      <Link to="/new">Add</Link>
+      <Link to="/new">Add Play</Link>
     </nav>
   )
 }
