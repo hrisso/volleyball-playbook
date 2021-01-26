@@ -13,7 +13,6 @@ function Form(props) {
     e.preventDefault();
     const fields = { name, type, description, image, author };
     await axios.post(baseURL, {fields: fields}, config)
-    console.log("success!");
     props.setToggleFetch((prev) => !prev)
     setName("");
     setType("Offense");

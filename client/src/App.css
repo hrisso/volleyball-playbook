@@ -37,7 +37,7 @@ main a {
   border-bottom: 1px solid transparent;
   transition: all 0.2s;
   font-weight: 900;
-  color: #0b132bff;
+  color: #1c2541ff;
 }
 
 nav a:hover{
@@ -48,8 +48,24 @@ nav a:hover{
   margin: 20px 10px;
 }
 
+.left-nav a {
+  margin: 8px 20px;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
 nav h1 {
   font-size: 30px;
+}
+
+nav img {
+  height: 50px;
+  width: auto;
 }
 
 form {
@@ -195,8 +211,9 @@ form button:hover {
 
 @media screen and (max-width: 736px) {
 
-  nav h1 {
+  .left-nav a {
     margin: 0;
+    display: inline;
   }
 
   .right-nav {
@@ -207,6 +224,11 @@ form button:hover {
   .right-nav a {
     margin: 5px;
   }
+
+  .left-nav img {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
