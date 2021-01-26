@@ -78,30 +78,30 @@ The Volleyball Playbook app is a library of volleball plays that allows a user t
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 19| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Jan 20| Project Approval | Incomplete
-|Jan 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 21| Pseudocode / actual code | Incomplete
-|July 22 | Initial Clickable Model  | Incomplete
-|July 25| MVP | Incomplete
+|Jan 19| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Jan 20| Project Approval | Complete
+|Jan 20| Core Application Structure (HTML, CSS, etc.) | Complete
+|Jan 21| Pseudocode / actual code | Complete
+|July 22 | Initial Clickable Model  | Complete
+|July 25| MVP | Complete
 |July 27| Presentations | Incomplete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setup React App | H | 2hrs| 0hrs | 0hrs |
-| Display Airtable data on homepage | H | 3hrs| 0hrs | 0hrs |
-| Header Component | H | 1hr| 0hrs | 0hrs |
-| Footer Component | H | 1hr| 0hrs | 0hrs |
-| Feed Component | H | 3hrs| 0hrs | 0hrs |
-| Form Component | H | 3hrs| 0hrs | 0hrs |
-| App.js routes | H | 3hrs| 0hrs | 0hrs |
-| CSS styling homepage | H | 2hrs| 0hrs | 0hrs |
-| CSS styling feed | H | 3hrs| 0hrs | 0hrs |
-| CSS styling form| H | 3hrs| 0hrs | 0hrs |
-| CSS styling header/footer | H | 1hr| 0hrs | 0hrs |
-| Total | H | 25hrs| 0hrs | 0hrs |
+| Setup React App | H | 2hrs| 2hrs | 2hrs |
+| Display Airtable data on homepage | H | 3hrs| 2hrs | 2hrs |
+| Header Component | H | 1hr| 1hrs | 1hrs |
+| Footer Component | H | 1hr| 1hrs | 1hrs |
+| Feed Component | H | 3hrs| 3hrs | 3hrs |
+| Form Component | H | 3hrs| 3hrs | 3hrs |
+| App.js routes | H | 3hrs| 2hrs | 2hrs |
+| CSS styling homepage | H | 2hrs| 4hrs | 4hrs |
+| CSS styling feed | H | 3hrs| 4hrs | 4hrs |
+| CSS styling form| H | 3hrs| 4hrs | 4hrs |
+| CSS styling header/footer | H | 1hr| 6hrs | 6hrs |
+| Total | H | 25hrs| 32hrs | 32hrs |
 
 ## SWOT Analysis
 
