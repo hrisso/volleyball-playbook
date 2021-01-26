@@ -38,9 +38,9 @@ function App() {
       </main>
       <Route path="/new">
         <Form setToggleFetch={setToggleFetch}/>
-        </Route>
-        <Route path="/play/:id">
-          <Details plays={plays}/>
+      </Route>
+      <Route path="/play/:id">
+        <Details plays={plays}/>
       </Route>
       <Footer />
     </div>
