@@ -17,6 +17,10 @@
   margin-bottom: 80px;
 }
 
+main {
+  overflow: auto;
+}
+
 nav {
   display: flex;
   padding: 35px;
@@ -145,6 +149,7 @@ form button:hover {
   grid-template-rows: repeat(4, 1fr);
   width: 80%;
   margin: 20px auto;
+  overflow: scroll;
 }
 
 .play img {
@@ -169,6 +174,7 @@ form button:hover {
   padding: 20px 50px;
   margin: 20px 25%;
   border-radius: 5px;
+  overflow: scroll;
 }
 
 .foot {
@@ -176,7 +182,7 @@ form button:hover {
   width: 100%;
   box-sizing: border-box;
   background-color: #5bc0beff;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
@@ -187,10 +193,10 @@ form button:hover {
   height: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 736px) {
+
   nav h1 {
-    font-size: 20px;
-    margin: 30px 0 0 0;
+    margin: 0;
   }
 
   .right-nav {
@@ -201,10 +207,30 @@ form button:hover {
   .right-nav a {
     margin: 5px;
   }
+}
+
+@media screen and (max-width: 500px) {
+
+  .right-nav {
+    padding-top: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  nav h1 {
+    margin: 0;
+  }
   
   .play {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
   }
 
   .play h2,
@@ -213,8 +239,9 @@ form button:hover {
     margin: 10px;
   }
 
-  img {
-    max-height: 50%;
+  .play img {
+    height: auto;
+    width: 50vw;
   }
 
   form label, 
@@ -235,20 +262,4 @@ form button:hover {
     margin: 10px 10%;
   }
 
-}
-
-@media screen and (max-width: 736px) {
-  nav h1 {
-    font-size: 20px;
-    margin: 30px 0 0 0;
-  }
-
-  .right-nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .right-nav a {
-    margin: 5px;
-  }
 }
