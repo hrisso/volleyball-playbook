@@ -2,6 +2,8 @@
 
 ## Volleyball Playbook
 
+https://modest-poincare-a94579.netlify.app/
+
 ## Project Description
 
 The Volleyball Playbook app is a library of volleball plays that allows a user to read and add to the library. The plays are organized by type and include title, description, image link, and author.
@@ -84,7 +86,7 @@ The Volleyball Playbook app is a library of volleball plays that allows a user t
 |Jan 21| Pseudocode / actual code | Complete
 |July 22 | Initial Clickable Model  | Complete
 |July 25| MVP | Complete
-|July 27| Presentations | Incomplete
+|July 27| Presentations | Complete
 
 ## Timeframes
 
